@@ -18,6 +18,7 @@ main{
 }
 
 #img-div{
+	display:relative;
 	text-align: center;
 	background-color:#fff;
 	margin:10px;
@@ -27,18 +28,8 @@ figcaption{
 	font-style:italic;
 }
 #image{
+	max-width:100%;
 	padding: 10px;
 	width: 800px;
 	height: 400px;
-}
-
-#img-caption{
-	display: block;
-}
-#span{
-	display: flex;
-	justify-content: center;
-	padding: 15px;
-	font-size:1.2rem ;
-	background-color: #fff;	
 }
