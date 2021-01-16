@@ -33,3 +33,22 @@ figcaption{
 	width: 800px;
 	height: 400px;
 }
+
+#info-header{
+	text-align: center;
+	margin: 30px;
+}
+
+#info-discription{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 400px;
+	width: 800px;
+	justify-content: center;
+}
+
+li{
+	padding: 0px 0px 15px 0px;
+}
+
+
