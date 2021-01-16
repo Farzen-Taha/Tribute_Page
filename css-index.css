@@ -51,6 +51,7 @@ text-align:left;
 margin: 0 100px 50px 100px;
 }
 li{
+	line-height: 1.5rem;
 	padding: 0px 0px 20px 0px;
 }
 
