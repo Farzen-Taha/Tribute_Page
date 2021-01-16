@@ -80,12 +80,12 @@ main{
 	text-align: center;
 	background-color:#fff;
 	margin:10px;
+	border-radius: 5px;
 }
 
 #image{
-	max-width:100%;
+	width: relative;
 	padding: 10px;
-	width: 600px;
 	height: 400px;
 }
 
@@ -95,11 +95,9 @@ main{
 }
 
 #info-discription{
-	display: relative;
-	flex-wrap: wrap;
-	margin: 10px 50px 10px 50px;
-	width: 500px;
+	display: flex;
 	justify-content: center;
+	margin: 0px;
 }
 
 footer{
@@ -108,19 +106,4 @@ footer{
 	margin: 0px 10px 10px 10px;
 }
 
-@media (max-width: 1024px){
-
-body{
-	background-color: #fff;
 }
-
-
-main{
-	background-color: #ddd;
-	border-radius: 5px;
-}
-
-}
-
-
-
