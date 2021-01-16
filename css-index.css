@@ -39,26 +39,15 @@ figcaption{
 	margin: 30px;
 }
 
-#info-discription{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 0px 200px 0px 380px;
-	width: 800px;
-	
-}
-
 li{
 	padding: 0px 0px 20px 0px;
 }
 
-.article-p{
-	display: flex;
-	justify-content: center;
+#ftr{
+	font-size: 1vm;
 	text-align: justify;
 	padding: 15px 35px 15px 35px;
 }
-
 footer{
 	font-weight: 900;
 	padding: 5px 0px 3px 5px;
@@ -100,10 +89,10 @@ main{
 	margin: 0px;
 }
 
-footer{
-	display: flex;
-	justify-content: center;
-	margin: 0px 10px 10px 10px;
+#ftr{
+	justify-content:center;
+	text-align: justify;
+	padding:15px 35px 15px 35px ;
 }
 
 }
