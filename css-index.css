@@ -42,9 +42,10 @@ figcaption{
 #info-discription{
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 400px;
-	width: 800px;
 	justify-content: center;
+	margin: 0px 200px 0px 380px;
+	width: 800px;
+	
 }
 
 li{
@@ -97,11 +98,29 @@ main{
 	display: relative;
 	flex-wrap: wrap;
 	margin: 10px 50px 10px 50px;
-	width: 600px;
+	width: 500px;
 	justify-content: center;
 }
 
+footer{
+	display: flex;
+	justify-content: center;
+	margin: 0px 10px 10px 10px;
+}
 
+@media (max-width: 1024px){
+
+body{
+	background-color: #fff;
+}
+
+
+main{
+	background-color: #ddd;
+	border-radius: 5px;
+}
+
+}
 
 
 
