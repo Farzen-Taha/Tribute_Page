@@ -51,6 +51,14 @@ li{
 	padding: 0px 0px 20px 0px;
 }
 
+.article-p{
+	display: flex;
+	justify-content: center;
+	text-align: justify;
+	padding: 15px 35px 15px 35px;
+
+
+}
 
 footer{
 	font-weight: 900;
