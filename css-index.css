@@ -41,6 +41,9 @@ display: block;
 	text-align: center;
 	margin: 30px;
 }
+#info-discription{
+  padding: 15px 200px 15px 200px;
+}
 #ul{
 	max-width:550px;
 justify-content:center;
@@ -54,7 +57,8 @@ li{
 #ftr{
 	font-size: 1vm;
 	text-align: justify;
-	padding: 15px 35px 15px 35px;
+	/*padding: 15px 35px 15px 35px;*/
+	padding: 15px 200px 15px 200px;
 }
 footer{
 	font-weight: 900;
