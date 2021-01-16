@@ -88,4 +88,20 @@ main{
 	height: 400px;
 }
 
+#info-header{
+	text-align: center;
+	margin: 30px;
+}
+
+#info-discription{
+	display: relative;
+	flex-wrap: wrap;
+	margin: 10px 50px 10px 50px;
+	width: 600px;
+	justify-content: center;
+}
+
+
+
+
 
