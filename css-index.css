@@ -1,20 +1,28 @@
 body{
+	font-size: 1rem;
+	margin : 0;
 }
 main{
+	padding: 1em;
 	background-color: #ddd;
 	border-radius: 5px;
 	margin: 0;
 }
+
 #title{
-	font-size:48px;       
+	/*border: 1px solid red;*/
+	margin: 0;
+	font-size:3rem;       
 	text-align:center;
 	font-weight:900px;
 }
 
 #head-para{
+	margin: 0;
+	margin-top: .5em;
 	text-align: center;
 	font-size:1.5rem;
-	padding: 0px 0px 0px 10px;
+	
 }
 
 #img-div{
@@ -38,8 +46,9 @@ display: block;
 }
 
 #info-header{
+	font-size: 2rem;
 	text-align: center;
-	margin: 30px;
+	margin: 2.5rem;
 }
 #info-discription{
   padding: 15px 200px 15px 200px;
