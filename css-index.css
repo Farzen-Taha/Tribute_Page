@@ -1,9 +1,9 @@
 body{
-	background-color: #fff;
 }
 main{
 	background-color: #ddd;
 	border-radius: 5px;
+	margin: 0;
 }
 #title{
 	font-size:48px;       
