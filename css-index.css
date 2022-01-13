@@ -1,68 +1,92 @@
 body{
-	background-color: #fff;
+	font-size: 1rem;
+	margin : 0;
 }
 main{
+	padding: 1em;
 	background-color: #ddd;
 	border-radius: 5px;
+	margin: 0;
 }
+
 #title{
-	font-size:48px;       
+	/*border: 1px solid red;*/
+	margin: 0;
+	font-size:3rem;       
 	text-align:center;
 	font-weight:900px;
 }
 
 #head-para{
+	margin: 0;
+	margin-top: .5em;
 	text-align: center;
 	font-size:1.5rem;
-	padding: 0px 0px 0px 10px;
+	
 }
 
 #img-div{
-	display:relative;
 	text-align: center;
 	background-color:#fff;
-	margin:10px;
+	margin:.8em;
+	padding: 1em;
 }
 figcaption{
 	padding-bottom:5px;
 	font-style:italic;
 }
+
 #image {
-width: 100%;
-height: auto;
-max-width: 625px;
-margin-left: auto;
-margin-right: auto;
-padding: 10px;
-display: block;
+	width: 100%;
+	height: auto;
+	max-width: 625px;
+	margin: 0 auto;
+	padding: 2em;
+	/*padding-bottom: 1em;*/
+	display: block;
 }
 
 #info-header{
+	font-size: 2.3rem;
 	text-align: center;
-	margin: 30px;
+	margin: 2.5rem;
 }
+
 #info-discription{
-  padding: 15px 200px 15px 200px;
+	text-align: left;
+	max-width: 60%;
+	margin: 0 auto;
 }
+
 #ul{
-	max-width:550px;
-justify-content:center;
-text-align:left;
-margin: 0 100px 50px 100px;
+
 }
+
 li{
-	padding: 0px 0px 20px 0px;
+	line-height: 1.5rem;
+	padding-bottom: 1em;
 }
 
 #ftr{
-	font-size: 1vm;
+	font-size: 1em;
+	letter-spacing: 1px;
+	width: 80%;
 	text-align: justify;
-	/*padding: 15px 35px 15px 35px;*/
-	padding: 15px 200px 15px 200px;
+	margin: 0 auto;
 }
+
 footer{
-	font-weight: 900;
-	padding: 5px 0px 3px 5px;
-	display: flex;
-	justify-content: center;
+	background-color: #a9a9a9;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1em;
+	margin-top: 2em;
 }
+
+#footer-div a img{
+	display: inline;
+	width: 3em;
+	margin: 0 1em;
+}
+
+
